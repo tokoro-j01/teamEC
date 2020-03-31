@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.txt {
+	width : 99%;
+	height : 30px;
+	border: 0.5px solid #999;
+	font-size : 24px;
+}
+
+/*画面実装担当部分、ボタンここから*/
+#contents .submit_btn_box{
+	width: 50%;
+	margin: 5px auto;
+	text-align: center;
+
+}
+#contents .submit_btn{
+	width: 30%;
+	padding: 5px;
+	margin: 5px 0px;
+	border-radius: 15px;
+	background-color:#2F2E33;
+	font-size: 12px;
+	color:#FFFFFF;
+	background:-webkit-linear-gradient(left, #2F2E33, #D5D6D2);
+}
+#contents .submit_btn:hover{
+	cursor: pointer;
+	opacity:0.5;
+    background: #81a8cb;
+}
+#contents .submit_btn:active{
+	opacity:0.5;
+    background: #4477a1;
+}
+/*画面実装担当部分、ボタンここまで*/
+
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.info {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+
+.success {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	text-align: center;
+}
+
+.warning {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #9F6000;
+	background-color: #FEEFB3;
+}
+
+.error {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+.error-message {
+	color : red;
+}
